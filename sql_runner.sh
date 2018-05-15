@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-cd /usr/bin/runner/
+cd /usr/bin/runner/remotecompiler
 sudo service mysql start
 echo "----BEGIN-----"
 mysql  mysql< create_user.sql -u'root' 
